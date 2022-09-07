@@ -1,0 +1,42 @@
+/* Write your CSS here*/
+
+.bg {
+  background-color: linear-gradient(#fa7257, #fc63a7, #fddddb);
+  height: 100vh;
+  padding: 20%;
+}
+.h {
+  font-size: 30px;
+  color: white;
+}
+
+.fullnamecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.butt {
+  background-color: white;
+  color: #c2065b;
+  border-radius: 5px;
+  padding: 10px;
+}
+.firstnamecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.lastnamecontianer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.namecontianer {
+  padding: 10%;
+  background-color: white;
+}
+.h2 {
+  color: black;
+}
