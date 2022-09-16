@@ -5,10 +5,10 @@ import './index.css'
 class ShowHide extends Component {
   state = {isfirstname: false, lastname: false}
   firstname = () => {
-    this.setState((isfirstname: true))
+    this.setState(prevState=>({isfirstname:!prevState.isfirstname)
   }
   lastname = () => {
-    this.setState((islastname: true))
+    this.setState(prevState=>({islastname:!prevState.islastname)
   }
 
   render() {
